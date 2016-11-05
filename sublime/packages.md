@@ -1,3 +1,4 @@
+```
 sublimeLinter
 alignment 对齐
 Emmet
@@ -11,3 +12,4 @@ React ES6 Snippets
 
 View In Browser
 jsFormat
+```
