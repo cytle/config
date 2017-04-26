@@ -1,0 +1,5 @@
+{
+    "shell_cmd" : "/usr/local/bin/node $file",
+    "file_regex": "js$",
+    "selector"  : "source.js"
+}

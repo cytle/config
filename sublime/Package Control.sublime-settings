@@ -1,0 +1,48 @@
+{
+	"bootstrapped": true,
+	"channels":
+	[
+		"https://raw.githubusercontent.com/cytle/blog/master/source/uploads/channel_v3.json"
+	],
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"Autoprefixer",
+		"Babel",
+		"Babel Snippets",
+		"DocBlockr",
+		"Emmet",
+		"ESLint-Formatter",
+		"Format JSDoc @params",
+		"Git",
+		"GitGutter",
+		"JsFormat",
+		"JSX",
+		"LESS",
+		"Less Tabs",
+		"MoveTab",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"PowerShell",
+		"Sass",
+		"SCSS",
+		"SCSS Snippets",
+		"Seti_UI",
+		"Stylus",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-json",
+		"Sublimerge 3",
+		"Theme - Flatland",
+		"Theme - Soda",
+		"Theme - Soda SolarizedDark",
+		"Themr",
+		"View In Browser",
+		"Vue Syntax Highlight",
+		"Vuejs Snippets",
+		"Web Inspector"
+	]
+}

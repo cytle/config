@@ -1,0 +1,12 @@
+set-option -g status on
+set-option -g status-interval 2
+set-option -g status-justify "centre"
+set-option -g status-left-length 60
+set-option -g status-right-length 90
+set-option -g status-left "#(~/src/tools/tmux-powerline/powerline.sh left)"
+set-option -g status-right "#(~/src/tools/tmux-powerline/powerline.sh right)"
+#bind y run "tmux save-buffer - | reattach-to-user-namespace | xclip -selection clipboard "
+bind C-[ run '~/src/tools/tmux-powerline/mute_powerline.sh left'      # Mute left statusbar.
+bind C-] run '~/src/tools/tmux-powerline/mute_powerline.sh right'     # Mute right statusbar.
+bind @ run '~/src/tools/2dfire/display.sh #{pane_current_path}'
+

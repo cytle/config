@@ -1,15 +1,35 @@
 [
+    // format_eslint
+    {
+      "keys": ["ctrl+k", "ctrl+h"],
+      "command": "format_eslint"
+    },
+
+    // build
+    {"keys": ["alt+b"],"command": "build"},
+    // 有点bug
+    { "keys": ["ctrl+d"], "command": "find_under_expand" },
+
     // 排版
-    {"keys":["ctrl+b"],"command":"reindent"},
+    {"keys": ["ctrl+b"],"command": "reindent"},
+
+    { "keys": ["ctrl+alt+s"], "command": "save_all" },
 
     // 对齐
-    { "keys": ["option+shift+a"], "command": "alignment" },
+    { "keys": ["ctrl+shift+a"], "command": "alignment" },
     {
         "keys": [
             "option+shift+h"
         ],
         "command": "toggle_header"
     },
+
+    // 移动layout
+    { "keys": ["alt+k"], "command": "focus_neighboring_group", "args": {"forward": false} },
+    { "keys": ["alt+j"], "command": "focus_neighboring_group" },
+    { "keys": ["alt+shift+k"], "command": "move_to_neighboring_group", "args": {"forward": false} },
+    { "keys": ["alt+shift+j"], "command": "move_to_neighboring_group" },
+
 
 
     // markdown
